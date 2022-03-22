@@ -3,5 +3,13 @@
 }
 
 .mystery{
-display: block;
+position: relative;
+right: -30%;
+}
+
+h3,
+h2,
+h1{
+    text-align: center;
+    font-size: 200%;
 }
