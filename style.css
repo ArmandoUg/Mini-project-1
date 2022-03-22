@@ -1,15 +1,55 @@
 .maintitle{
     text-align: center;
+    position: relative;
+    background-color: inherit;
+    z-index: -1;
 }
 
-.mystery{
+#mystery{
 position: relative;
 right: -30%;
+z-index: -1;
 }
 
 h3,
 h2,
 h1{
     text-align: center;
-    font-size: 200%;
+    font-size: 250%;
+    background-color: beige;
+}
+
+.topnav{
+    background-color: aqua;
+    overflow: hidden;
+    position: fixed;
+    top: -1;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    
+}
+
+.topnav a {
+    float: left;
+    color: rgb(223, 43, 43);
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: purple;
+}
+
+.topnav a.active {
+    background-color: green;
+    color: gold;
+
+}
+#info{
+    color: red;
+    font-size: large;
 }
